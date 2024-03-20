@@ -9,10 +9,10 @@ on:
       environment:
         description: 'The environment to deploy to (e.g. production, staging)'
         required: true
-    # push:
-    #   branches: [ "master" ]
-    # pull_request:
-    #   branches: [ "master" ]
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
 
 jobs:
   build:
